@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-label="Tapis de couloir rayé inspiré du lamba">
+  <defs>
+    <pattern id="raies" x="90" y="0" width="120" height="400" patternUnits="userSpaceOnUse">
+      <rect width="120" height="400" fill="#F2E9DC"/>
+      <rect x="8" width="6" height="400" fill="#795548"/>
+      <rect x="18" width="2" height="400" fill="#5D4037"/>
+      <rect x="40" width="12" height="400" fill="#E2CDB5"/>
+      <rect x="62" width="3" height="400" fill="#879783"/>
+      <rect x="68" width="3" height="400" fill="#879783"/>
+      <rect x="90" width="12" height="400" fill="#E2CDB5"/>
+      <rect x="108" width="2" height="400" fill="#5D4037"/>
+    </pattern>
+  </defs>
+  <g stroke="#D9CBB6" stroke-width="2" stroke-linecap="round">
+    <path d="M98 6v12M108 6v12M118 6v12M128 6v12M138 6v12M148 6v12M158 6v12M168 6v12M178 6v12M188 6v12M198 6v12"/>
+    <path d="M98 382v12M108 382v12M118 382v12M128 382v12M138 382v12M148 382v12M158 382v12M168 382v12M178 382v12M188 382v12M198 382v12"/>
+  </g>
+  <rect x="90" y="18" width="120" height="364" rx="3" fill="url(#raies)"/>
+  <rect x="90" y="18" width="120" height="364" rx="3" fill="none" stroke="#E3D6C2" stroke-width="2"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-label="Kilim tissé à bandes sable, brun et sauge">
+  <defs>
+    <pattern id="tri" x="20" y="0" width="20" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 18 L10 2 L20 18Z" fill="#795548"/>
+    </pattern>
+    <pattern id="tri2" x="20" y="0" width="20" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L10 16 L20 0Z" fill="#879783"/>
+    </pattern>
+  </defs>
+  <g stroke="#D9CBB6" stroke-width="2" stroke-linecap="round">
+    <path d="M32 8v14M46 8v14M60 8v14M74 8v14M88 8v14M102 8v14M116 8v14M130 8v14M144 8v14M158 8v14M172 8v14M186 8v14M200 8v14M214 8v14M228 8v14M242 8v14M256 8v14M270 8v14"/>
+    <path d="M32 378v14M46 378v14M60 378v14M74 378v14M88 378v14M102 378v14M116 378v14M130 378v14M144 378v14M158 378v14M172 378v14M186 378v14M200 378v14M214 378v14M228 378v14M242 378v14M256 378v14M270 378v14"/>
+  </g>
+  <rect x="20" y="22" width="260" height="356" rx="3" fill="#EBDDC8"/>
+  <rect x="20" y="46" width="260" height="10" fill="#795548"/>
+  <rect x="20" y="62" width="260" height="4" fill="#5D4037"/>
+  <rect x="20" y="90" width="260" height="18" fill="url(#tri)"/>
+  <rect x="20" y="132" width="260" height="34" fill="#DFE4DA"/>
+  <rect x="20" y="146" width="260" height="6" fill="#879783"/>
+  <rect x="20" y="191" width="260" height="18" fill="#795548" opacity=".85"/>
+  <rect x="20" y="234" width="260" height="34" fill="#DFE4DA"/>
+  <rect x="20" y="248" width="260" height="6" fill="#879783"/>
+  <rect x="20" y="292" width="260" height="18" fill="url(#tri2)"/>
+  <rect x="20" y="334" width="260" height="4" fill="#5D4037"/>
+  <rect x="20" y="344" width="260" height="10" fill="#795548"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-label="Tapis pour enfant beige à pois crème">
+  <defs>
+    <pattern id="pois" x="20" y="22" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="3.6" fill="#F5F0E6"/>
+      <circle cx="21" cy="21" r="3.6" fill="#F5F0E6"/>
+    </pattern>
+  </defs>
+  <path d="M40 22 H260 a20 20 0 0 1 20 20 V358 a20 20 0 0 1 -20 20 H40 a20 20 0 0 1 -20 -20 V42 a20 20 0 0 1 20 -20Z" fill="#E6DCCB"/>
+  <path d="M40 22 H260 a20 20 0 0 1 20 20 V358 a20 20 0 0 1 -20 20 H40 a20 20 0 0 1 -20 -20 V42 a20 20 0 0 1 20 -20Z" fill="url(#pois)"/>
+  <path d="M44 40 H256 a6 6 0 0 1 6 6 V354 a6 6 0 0 1 -6 6 H44 a6 6 0 0 1 -6 -6 V46 a6 6 0 0 1 6 -6Z" fill="none" stroke="#A1887F" stroke-width="2.5" stroke-dasharray="6 6"/>
+</svg>
