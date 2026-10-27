@@ -6,7 +6,9 @@
   <title>Tsena Cozy — Tapis tissés main à Fianarantsoa</title>
   <meta name="description" content="Tsena Cozy vend des tapis en laine, jute et coton, tissés à la main. Showroom à Fianarantsoa, livraison partout à Madagascar.">
   <meta name="theme-color" content="#F5F0E6">
-  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <meta property="og:image" content="https://tsena-cozy.store/img/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -19,7 +21,7 @@
   <header class="header">
     <div class="wrap header__inner">
       <a class="logo" href="#" aria-label="Tsena Cozy, retour en haut">
-        <img src="img/favicon.svg" alt="" width="28" height="28">
+        <img src="img/logo.png" alt="" width="52" height="52">
         <span>Tsena <em>Cozy</em></span>
       </a>
       <nav class="nav" aria-label="Navigation principale">
@@ -60,7 +62,7 @@
           </div>
           <div class="hero__tag">
             <span class="dot"></span>
-            Modèle Atlas<br><small>Laine vierge · 160 × 230 cm</small>
+            <span>Modèle Atlas<br><small>Laine vierge · 160 × 230 cm</small></span>
           </div>
         </div>
       </div>
@@ -368,46 +370,30 @@
             </li>
             <li>
               <span class="contact-list__label">Téléphone</span>
-              <a href="tel:+261340000000">+261 34 00 000 00</a>
+              <a href="tel:+261386299884">+261 38 62 998 84</a>
             </li>
             <li>
               <span class="contact-list__label">WhatsApp</span>
-              <a href="https://wa.me/261340000000">Écrire un message</a>
-            </li>
-            <li>
-              <span class="contact-list__label">E-mail</span>
-              <a href="mailto:bonjour@tsenacozy.mg">bonjour@tsenacozy.mg</a>
+              <a href="https://wa.me/261386299884" target="_blank" rel="noopener">+261 38 62 998 84</a>
             </li>
           </ul>
         </div>
 
-        <form class="form" action="mailto:bonjour@tsenacozy.mg" method="post" enctype="text/plain">
-          <h3>Demander un rendez-vous ou un devis</h3>
-          <div class="form__row">
-            <div class="field">
-              <label for="nom">Nom</label>
-              <input id="nom" name="nom" type="text" autocomplete="name" required>
-            </div>
-            <div class="field">
-              <label for="tel">Téléphone</label>
-              <input id="tel" name="telephone" type="tel" autocomplete="tel" inputmode="tel" placeholder="034 00 000 00" required>
-            </div>
-          </div>
+        <!-- Le formulaire ouvre WhatsApp avec le message déjà écrit -->
+        <form class="form" action="https://wa.me/261386299884" method="get" target="_blank">
+          <h3>Écrivez-nous sur WhatsApp</h3>
+          <p class="form__lead">Choisissez une demande toute prête :</p>
+          <ul class="quick">
+            <li><a href="https://wa.me/261386299884?text=Bonjour%20Tsena%20Cozy%2C%20je%20voudrais%20passer%20voir%20les%20tapis%20%C3%A0%20la%20boutique." target="_blank" rel="noopener">Visiter la boutique</a></li>
+            <li><a href="https://wa.me/261386299884?text=Bonjour%20Tsena%20Cozy%2C%20je%20voudrais%20essayer%20des%20tapis%20chez%20moi." target="_blank" rel="noopener">Essai à domicile</a></li>
+            <li><a href="https://wa.me/261386299884?text=Bonjour%20Tsena%20Cozy%2C%20je%20voudrais%20un%20tapis%20sur%20mesure." target="_blank" rel="noopener">Tapis sur mesure</a></li>
+          </ul>
           <div class="field">
-            <label for="objet">Votre demande</label>
-            <select id="objet" name="objet">
-              <option>Visite du showroom</option>
-              <option>Essai à domicile</option>
-              <option>Tapis sur mesure</option>
-              <option>Autre question</option>
-            </select>
+            <label for="message">Ou écrivez votre message</label>
+            <textarea id="message" name="text" rows="5" required placeholder="Bonjour, je cherche un tapis pour mon salon de 4 × 5 m, plutôt dans les tons clairs…"></textarea>
           </div>
-          <div class="field">
-            <label for="message">Message <span class="optional">(facultatif)</span></label>
-            <textarea id="message" name="message" rows="4" placeholder="Dimensions de la pièce, couleurs souhaitées, disponibilités…"></textarea>
-          </div>
-          <button class="btn btn--full" type="submit">Envoyer la demande</button>
-          <p class="form__hint">On vous rappelle le mardi ou le vendredi suivant.</p>
+          <button class="btn btn--full" type="submit">Envoyer sur WhatsApp</button>
+          <p class="form__hint">WhatsApp s'ouvre avec votre message, il ne reste qu'à l'envoyer.</p>
         </form>
       </div>
     </section>
@@ -417,9 +403,8 @@
   <footer class="footer">
     <div class="wrap footer__inner">
       <div class="footer__brand">
-        <a class="logo" href="#">
-          <img src="img/favicon.svg" alt="" width="28" height="28">
-          <span>Tsena <em>Cozy</em></span>
+        <a class="footer__logo" href="#">
+          <img src="img/logo.png" alt="Tsena Cozy" width="120" height="120" loading="lazy">
         </a>
         <p>Tapis tissés main à Fianarantsoa, depuis 2026.</p>
       </div>
